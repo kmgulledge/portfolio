@@ -1,0 +1,95 @@
+/* Begin Purple Belt Coding Ninja CSS
+-------------------------------------------------- */
+
+
+/* Body 
+-------------------------------------------------- */
+
+body {
+    background: url("../img/mriverbg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+/* Header
+-------------------------------------------------- */
+
+
+/* Nav 
+-------------------------------------------------- */
+
+.sidenav {
+    height: 30%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 50px;
+    left: 10px;
+    background-color: #111;
+    overflow-x: hidden;
+    opacity: 0.7;
+    transition: 0.5s;
+    padding-top: 25px;
+    border-radius: 10px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        display: block;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+
+/* Mobile Responsive CSS
+-------------------------------------------------- */
+
+
+/** phone in landscape **/
+
+@media only screen and (max-width: 640px) {
+    #nav {
+        visibility: hidden;
+    }
+}
+
+
+/** tablet device **/
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+    #nav {
+        visibility: hidden;
+    }
+}
+
+
+/** desktop and laptop devices **/
+
+@media only screen and (min-width: 769px) and (max-width: 980px) {}
